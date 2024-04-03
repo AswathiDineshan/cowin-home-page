@@ -1,0 +1,1707 @@
+body {
+  margin: 0;
+  font-family: Roboto,sans-serif!important;}
+/**TOPNAV START**/
+.topnav {
+  position: fixed;
+  background-color: #045d5d;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 10;
+  padding: 5px 0px 1px 20px;
+  }
+.topnav-left
+{
+  padding: 0px;
+  width: 221px; 
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+.topnav p
+{
+  color: #fff;
+  line-height: 22px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.logo
+{
+  height: 32px;
+}
+.text-left {
+  text-align: left!important;
+}
+.my-auto {
+  margin-bottom: auto!important;
+  margin-top: auto!important;
+}
+.govindia
+{
+    color: #fff;
+    float: left;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    min-width: 200px;
+}
+.topnav ul
+{
+  margin-top: 13px;
+    padding-right: 30px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.topnav ul li
+{
+  text-align: center;
+    color: #fff;
+    cursor: pointer;
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.topnav-right
+{
+  float: right;
+  padding: 10px 0px 10px 970px; 
+}
+.button
+{
+  background: transparent;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    width: 40px;
+    height: 29px;
+    text-align: center;
+    border: 1px solid hsla(0,0%,100%,.5);
+    line-height: 22px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: none;
+}
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+    margin: -45px -167px 0px 10px;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  width: 230px;
+  height: 250px;
+  display: none;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+/**SECOND NAV STARTS**/
+.botnav {
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden;
+    background-color: #017e7e;
+    padding: 0px 32px 0px 20px;
+}
+.botnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 0px 0px 60px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500!important;
+}
+.botnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.botnav a.active {
+  color: white;
+}
+.botnav-right {
+  float: right;
+  padding-right: 20px; 
+}
+.reg
+{
+  width: 130%;
+  color: #fff;
+  height: 40px;
+  margin: -9px;;
+  font-size: 13px;
+  border: 1px solid;
+  outline-color: white;
+  background-color: transparent;
+  padding: 14px;
+  border-radius: 30px;
+}
+/**SECOND NAV END**/
+/**FLOATING MENU**/
+.col
+{
+  -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px 
+}
+.floating-menu .dropdown{
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  top: 227px;
+  z-index: 99;
+  right: 166px;
+}
+.floating-menu  .dropbtn
+ {
+  background-image: linear-gradient(90deg,#017e7e 80%,#0c6161);
+  color: #fff;
+  padding: 10px 0 10px 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  min-width: 130px;
+  height: 55px;
+  box-shadow: 0 10px 10px -10px #333;
+  border-top-left-radius: 38px;
+  border-bottom-left-radius: 38px;
+  position: relative;
+  z-index: 2;
+}
+.floating-menu .dropbtn .filter-block{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  text-align: left;
+  top: -3px;
+}
+.floating-menu .dropbtn .filter-block .iconSpan {
+  position: relative;
+  left: 4px 
+}
+.floating-menu .dropbtn .filter-block .iconSpan img {
+  display: inline-flex;
+  margin-right: 23px;
+  height: 21px;
+}
+.floating-menu .dropbtn .filter-block .supportBtn {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .7px;
+  min-width: 100px 
+}
+.whtespaceNowrap {
+  white-space: nowrap;
+}
+    /**FLOATING MENU**/
+    /**BANNER STARTS**/
+    .banner
+    {
+    margin-top: 120px;
+    background-color: #fff;
+    background-image: url(https://www.cowin.gov.in/precaution_banner_bg_web.c656a76b28237d8fb924.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    }
+    .container-fluid
+    {
+      width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .banner-grid-container {
+      margin-top: 0px;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+    .banner-grid-container > div {
+      margin-top: 2rem;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+     .banner .banner-content
+    {
+      padding-left: 13%;
+      margin-top: 22px; 
+    }
+    .banner .banner-content h3
+    {
+      font-size: 35px;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Roboto Condensed, sans-serif !important;
+    font: 700 32px / 53px Roboto, Helvetica Neue, sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+    }
+    .banner .banner-content .milestone{
+    border: 3px solid #fd5428;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    margin: 10px 0 40px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    }
+    .banner .banner-content .milestone .img{
+      width: 35px;
+    margin-right: 15px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    }
+    .banner .banner-content .milestone h3
+    {
+      font-weight: 700;
+      line-height: 53px;
+      color: #fd5428;
+    margin: 0;
+    font-size: 40px;
+    }
+    .banner .banner-content .mainquote
+    {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 30px;
+    }
+      h4 {
+        font: 400 15px / 24px Roboto, Helvetica Neue, sans-serif;
+        letter-spacing: normal;
+        margin: 0 0 16px;
+    }
+.banner .banner-content p
+{
+  color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px 
+}
+.banner .banner-image{
+  text-align: center;
+}
+.banner .banner-image img{
+max-height: 490px;
+    max-width: 75%;
+    margin: 0 auto 0 20px;
+}
+.banner .banner-image .desk-image
+{
+  display: block;
+}
+.banner .banner-image .mob-image
+{
+  display: none;
+}
+    /**BANNER END**/
+/**VACCINATION STARTS**/
+.vaccination
+{
+  background: linear-gradient(120deg, #007c7c 50%, #04c4c4 0);
+  height: 85px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row
+{
+  display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+.col-md-5
+{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.vaccination .total-vacc
+{
+  text-align: right;
+    display: flex;
+    align-items: center;
+}
+.d-md-done
+{
+  display: none !important;
+}
+.vaccination .total-vacc p{
+  color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.vaccination .total-vacc h3{
+  font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+color: #fff;
+}
+.vaccination .total-vacc .chart{
+    height: 85px !important;
+}
+.chartjs-size-monitor {
+  position: absolute;
+  direction: ltr;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  z-index: -1;
+}
+.chartjs-size-monitor-expand  {
+  position: absolute;
+  direction: ltr;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  z-index: -1;
+}
+.chartjs-size-monitor-expand > div {
+  position: absolute;
+  width: 1000000px;
+  height: 1000000px;
+  left: 0;
+  top: 0;
+}
+.chartjs-size-monitor-shrink {
+  position: absolute;
+  direction: ltr;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: -1;
+}
+.chartjs-size-monitor-shrink > div {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: 0;
+  top: 0;
+}
+.text-center {
+  text-align: center !important;
+}
+.pb-3, .py-3 {
+  padding-bottom: 1rem !important;
+}
+.pt-2, .py-2 {
+  padding-top: 0.5rem !important;
+}
+/*.d-md-block
+{
+  margin: 10px 10px 10px -549px;
+}
+*/
+.vaccination .viewmore
+{
+  background: #fcbf02;
+  border-radius: 25px;
+  padding: 0.55rem 2.55rem;
+  color: #4d3b03;
+  font-weight: 700;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid #fff;
+}
+.vaccination .vacc-today
+{
+  margin: -5px 0px 0px 789px; 
+  display: flex;
+  align-items: center;
+}
+.justify-content-end {
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+}
+.pr-2, .px-2 {
+  padding-right: 0.5rem !important;
+}
+.vaccination .vacc-today p{
+  font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #000;
+}
+.vaccination .vacc-today h3{
+  font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+}
+/**VACCINATION END**/
+/**VACCINATION STEP STARTS**/
+.vacc-steps
+{
+  padding: 45px;
+  background-color: #edffff;
+}
+.vacc-steps h1{
+  font-weight: 700;
+    font-size: 32px;
+    color: #007c7c;
+    margin-bottom: 30px !important;
+}
+.col-md-10
+{
+  position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px 
+}
+.vacc-steps .card-holder{
+  margin-top: 30px; 
+}
+.vacc-steps .card-holder .row
+{
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+margin-right: -385px;
+margin-left: 170px;
+}
+.col-md-3
+{
+  position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 46px;
+}
+.vacc-steps .card-holder .step-card
+{
+  height: 100%;
+  background-color: #fff;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 10px 30px #b5d8e2;
+}
+.vacc-steps .card-holder .card a
+{
+text-decoration: none;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.vacc-steps .card-holder .step-card .img-holder{
+   padding: 20px 15px 0;
+}
+.vacc-steps .card-holder .step-card img{
+width: 200px;
+height: 85px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.vacc-steps .card-holder .step-card .step-content{
+  background-color: #007c7c;
+}
+.vacc-steps .card-holder .step-card .step-content .content{
+padding: 30px 25px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0
+}
+.vacc-steps .card-holder .step-card .step-footer{
+color: #2f4b6e;
+    font-size: 12px;
+    padding: 10px 45px 20px;
+    text-decoration: none;
+}
+.vacc-steps .card-holder .step-card img{
+width: 200px;
+height: 85px;
+} 
+.vacc-steps .card-holder .step-card .step-content{
+  height: 43% !important;
+  background-color: #007c7c;
+}
+.vacc-steps .card-holder .step-card .step-content p{
+padding: 30px 25px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.vacc-steps .step-box
+{
+  font-size: 14px;
+    color: #007c7c;
+    border: 1px solid #007c7c;
+    padding: 5px 20px;
+    border-radius: 10px;
+    top: -16px;
+    position: absolute;
+    font-weight: 700;
+    background-color: #fff;
+    margin: auto;
+    display: block;
+    width: 85px;
+    text-align: center;
+    left: 0 !important;
+    right: 0;
+}
+.vacc-steps .card-holder .step-card .step-footer
+{
+  color: #2f4b6e;
+    font-size: 12px;
+    padding: 10px 45px 20px;
+    text-decoration: none;
+}
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.vacc-steps .icon-right
+{
+  color: #02aeae;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+.icon
+{
+  font-family: icomoon !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+/**VACCINATION END**/
+/**VACCINATION CENTER START**/
+.vacc-center .searchcenter{
+  margin-top: 50px;
+  max-height:600px;
+}
+
+.grid-container-vacc {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container-vacc > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 22px;
+}
+
+.by-district {
+  grid-column:  span 2;
+  color: #02aeae !important;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 700;
+}
+.by-pin{
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #bfbfbf;
+}
+.map {
+  grid-column:  span 2;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 700;
+  color: #bfbfbf;
+}
+.select-state
+ {
+  grid-column:  span 2;
+  text-align: right;
+}
+.select-district {
+  grid-column:  span 2;
+  text-align: left;
+}
+.search{
+  text-align: center;
+}
+.btn{
+  background-color: #007C7C;
+   margin-left: -400px;
+  width: 55%;
+  color: #fff;
+  height: 45px;
+  font-size: 16px;
+  border: 0px solid;
+  outline-color: white;
+  padding: 10px;
+  border-radius: 30px;
+}
+.state{
+  background-color: white;
+ width: 70%;
+ color: #bfbfbf;
+ height: 45px;
+ font-size: 16px;
+ border: 1px solid #bfbfbf;
+ outline-color: #bfbfbf;
+ padding: 10px;
+ border-radius: 30px;
+}
+.district{
+  background-color: white;
+ width: 70%;
+ color: #bfbfbf;
+ height: 45px;
+ font-size: 16px;
+ border: 1px solid #bfbfbf;
+ outline-color: #bfbfbf;
+ padding: 10px;
+ border-radius: 30px;
+}
+.searchcenter .tab-menu {
+  border-bottom: 2px solid #807e7e;
+  margin-left: 150px;
+  width: 900px;
+}
+.vacc-center  .searchcenter nav {
+  font-size: 20px;
+  color: #017e7e;
+  font-weight: 500;   
+  background-color: white;
+}
+.searchcenter nav li{
+  list-style: none;
+  margin-left: 100px; 
+  display: inline; 
+  opacity: 0.5;
+  width: 70%; 
+}
+.searchcenter nav ul li:hover {
+  padding-bottom: 18px;
+  border-bottom: 5px solid #057373;
+}
+.searchcenter nav li a{
+  text-decoration: none;
+  color: #282828;   
+}
+.searchcenter nav li a:hover{
+  color: #057373;
+}
+.searchcenter iframe{
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0,1),0 10px 10px rgba(0,0,0,0,1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+ /**VACCINATION CENTER END**/
+ /**PRECATION DOSE STARTS**/
+ .free-pre-dose-containar {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.free-pre-dose {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: justify;
+}
+.free-pre-dose h3{
+  color: #007c7c;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: .1px;
+  line-height: 1.3;
+}
+.free-pre-dose p{
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: .7;
+  letter-spacing: .5px;
+}
+.book-slot-pre
+{
+  text-align: center;
+  margin-top: -213px;
+}
+.book-pre
+{
+  background-color: #007C7C;
+  margin-left: -566px;
+  width: 20%;
+  color: #fff;
+  height: 45px;
+  font-size: 16px;
+  border: 0px solid;
+  outline-color: white;
+  border-radius: 30px;
+}
+ /**PRECATION DOSE END**/
+/**SIDE EFFECT STARTS**/
+.side-effect-containar{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.side-effect {
+  background-color: #edffff;
+  padding: 20px 80px;
+  font-size: 30px;
+}
+.side-effect h3{
+  color: #007c7c;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: .1px;
+  line-height: 1.3;
+}
+.side-effect p{
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: .7;
+  letter-spacing: .5px;
+}
+.report-now
+{
+  text-align: center;
+  margin-top: -85px;
+}
+.report
+{
+  background-color: #007C7C;
+  margin-right: -1000px;
+  width: 20%;
+  color: #fff;
+  height: 45px;
+  font-size: 16px;
+  border: 0px solid;
+  outline-color: white;
+  border-radius: 30px;
+}
+ /**SIDE EFFECT END**/
+  /**CHILD-VACCINATION STARTS**/
+  .child-vacc-containar {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .child-vacc {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+  }
+  .child-vacc h3{
+    color: #007c7c;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: .1px;
+    line-height: 1.3;
+  }
+  .child-vacc p{
+    font-size: 16px;
+    color: #0e1229;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: .7;
+    letter-spacing: .5px;
+  }
+  .book-slot
+  {
+    text-align: center;
+    margin-top: -90px;
+  }
+  .book
+  {
+    background-color: #007C7C;
+    margin-left: -450px;
+    width: 20%;
+    color: #fff;
+    height: 45px;
+    font-size: 16px;
+    border: 0px solid;
+    outline-color: white;
+    border-radius: 30px;
+  }
+  li::marker {
+    color: #28a745;
+  }
+   /**CHILD-VACCINATION END**/
+   /**DATE CORRECTION STARTS**/
+   .date-correct-containar {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .date-correct {
+    background-color: #edffff;
+    padding: 20px 82px;
+    font-size: 30px;
+    text-align: justify;
+  }
+  .date-correct h3{
+    color: #007c7c;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: .1px;
+    line-height: 1.3;
+  }
+  .date-correct p{
+    font-size: 16px;
+    color: #0e1229;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: .7;
+    letter-spacing: .5px;
+  }
+  .update-now
+  {
+    text-align: center;
+    margin-top: -85px;
+  }
+  .update
+  {
+    background-color: #007C7C;
+    margin-right: -890px;
+    width: 40%;
+    color: #fff;
+    height: 45px;
+    font-size: 16px;
+    border: 0px solid;
+    outline-color: white;
+    border-radius: 30px;
+  }
+   /**DATE CORRECTION END**/
+    /**PRECAUTION DOSE STARTS**/
+  .pre-dose-containar {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .pre-dose {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+  }
+  .pre-dose h3{
+    color: #007c7c;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: .1px;
+    line-height: 1.3;
+  }
+  .pre-dose p{
+    font-size: 16px;
+    color: #0e1229;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: .7;
+    letter-spacing: .5px;
+  }
+  .book-slot
+  {
+    text-align: center;
+    margin-top: -90px;
+  }
+  .book
+  {
+    background-color: #007C7C;
+    margin-left: -450px;
+    width: 20%;
+    color: #fff;
+    height: 45px;
+    font-size: 16px;
+    border: 0px solid;
+    outline-color: white;
+    border-radius: 30px;
+  }
+  li::marker {
+    color: #28a745;
+  }
+   /**PRECAUTION DOSE END**/
+   /**VACCINATION STATUS STARTS**/
+.vacc-status-containar{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.vacc-status {
+  background-color: #edffff;
+  padding: 20px 80px;
+  font-size: 30px;
+}
+.vacc-status h3{
+  color: #007c7c;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: .1px;
+  line-height: 1.3;
+}
+.vacc-status p{
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: .7;
+  letter-spacing: .5px;
+}
+.status
+{
+  text-align: center;
+  margin-top: -136px;
+}
+.share
+{
+  background-color: #007C7C;
+  margin-right: -862px;
+  width: 40%;
+  color: #fff;
+  height: 45px;
+  font-size: 16px;
+  border: 0px solid;
+  outline-color: white;
+  border-radius: 30px;
+}
+ /**VACCINATION STATUS END**/
+ /**ABHA STARTS**/
+ .abha-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.abha-item {
+  padding: 7px 10px 10px 144px;
+  font-size: 30px;
+  text-align: center;
+}
+.abha-item img{
+  width: 465px;
+  height: 255px; 
+  background: #fff;
+  box-shadow: 2px 2px 10px rgba(0,0,0,.25);
+  padding: 10px;
+  display: block;
+  border-radius: 8px 
+}
+.abha-item-h3{
+  padding: 20px;
+  text-align: center;
+  color: #007c7c;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: .1px;
+  line-height: 1.3;
+}
+.abha-item-p{
+  text-align: center;
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: .7;
+  letter-spacing: .5px;
+}
+.click
+{
+  text-align: center;
+  margin-top: 10px;
+}
+.know
+{
+  background-color: #007C7C;
+  margin-right: -862px;
+  width: 40%;
+  color: #fff;
+  height: 45px;
+  font-size: 16px;
+  border: 0px solid;
+  outline-color: white;
+  border-radius: 30px;
+}
+ /**ABHA END**/
+ /**RAISE AN ISSUE STARTS**/
+.issue-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px 133px 0px 133px;
+}
+.issue-grid-item {
+  width: 90%;
+  text-align: center;
+  background: #fff 0 0 no-repeat padding-box;
+  box-shadow: 0 8px 25px rgba(64,48,107,.25098039215686274);
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+ .raise
+ {
+  height: 410px;
+  background-color: #007c7c;
+ }
+ .raise-h3{
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: .1px;
+  line-height: 1.3;
+ }
+ .acc{
+  overflow: scroll;
+  overflow-x: auto;  
+  background-color: #007c7c;
+  border-radius: 10px;
+  margin-bottom: 0;
+ }
+.arrow-a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.arrow-a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.previous {
+  background-color: transparent;
+  color: black;
+  border: 1px solid white;
+}
+.next {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.raise-p{
+  text-align: center;
+  font-size: 16px;
+  color:#fff;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: .5px;
+}
+.raise-flex-h5{
+  min-height: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #007c7c;
+  font-size: 15px;
+}
+.raise-flex-p{
+  letter-spacing: 0;
+  color: #282828;
+  font-weight: 500;
+  font-size: 13px;
+}
+  /**RAISE AN ISSUE STARTS**/
+/**QUESTIONS STARTS**/
+.col-lg-9{
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+.faq{
+  box-shadow: none!important;
+}
+.tabgroup{
+  display: flex;
+  flex-direction: column;
+}
+.tabheader{
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.header-pagination{
+  height: 289px;
+  display: flex;
+  overflow: scroll;
+  z-index: 1 !important;
+  user-select: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width: 32px;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: none;
+}
+.pagination-chevron {
+  transform: rotate(-135deg);
+  border-color: rgba(0, 0, 0, .38);
+  border-style: solid;
+  border-width: 2px 2px 0 0;
+  content: "";
+  height: 8px;
+  width: 8px;
+}
+.label-container {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  z-index: 1;
+}
+.mat-ink-bar {
+background-color: #007c7c;
+height: 4px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+visibility: visible;
+left: 0px;
+width: 69px;
+position: absolute;
+bottom: 0;
+transition: 500ms cubic-bezier(0.35, 0, 0.25, 1);
+}
+.mat-tab-header-pagination {
+  box-shadow: none!important;
+  transform: translateZ(0);
+  box-shadow: none;
+  cursor: default;
+  padding-right: 4px;
+}
+.tab-body {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  transition: height 500ms cubic-bezier(0.35, 0, 0.25, 1);
+}
+.tab-body-content {
+  height: 100%;
+  overflow: auto;
+}
+.tab-body-active {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+  flex-grow: 1;
+}
+.matdiv{
+  overflow: hidden;
+  background: #f6f6f6 0 0 no-repeat padding-box;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+.faq h3{
+  margin-top: 30px;
+  font-size: 32px;
+  color: #007c7c;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px !important;
+}
+.download{
+border: 2px solid #007c7c;
+border-radius: 50px;
+padding: 0.75rem 2.95rem;
+min-width: 150px;
+display: inline-block;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+text-decoration: none;
+letter-spacing: 1px;
+color: #007c7c;
+}
+.icon{
+  margin-right: 5px;
+  display: inline-block;
+  font-family: icomoon !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.mt-5{
+margin-top: 3rem !important;
+}
+.tab-header
+{
+  background-color: #e9ffff;
+  border-radius: 27px 27px 0 0;
+  border-bottom: none;
+  margin-bottom: 30px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.pagination{
+  user-select: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width: 32px;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: none;
+}
+.label-container{
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  z-index: 1;
+}
+.tab-list{
+  flex-grow: 1;
+  display: inline-flex;
+  position: relative;
+  transform: 500ms cubic-bezier(0.35, 0, 0.25, 1)
+}
+.tab-labels{
+  justify-content: center;
+  display: flex;
+}
+.tab-label {
+  padding: 0 10px;
+  opacity: 1;
+  min-width: auto;
+}
+.label-content {
+  color: #007c7c;
+  font-weight: 700;
+  padding: 8px 15px;
+  color: #007c7c;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.col-sm-9{
+    padding: 3px 0px 222px 0px; 
+}
+
+/**QUESTIONS END**/
+/**WHATSNEW STARTS**/
+.whatsnew{
+  margin-top: 45px;
+  padding: 45px 0;
+    background: #edffff;
+}
+.whatsnew h2{
+font-size: 32px;
+    color: #007c7c;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px !important;
+}
+.whatsnew .height{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 300px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #007c7c; 
+}
+::-webkit-scrollbar-thumb {
+  color: #007c7c; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #007c7c; 
+}
+.whatsnew .cow-expansion-panel .numbering{
+  color: #ff9a31 !important;
+}
+.whatsnew .cow-expansion-panel {
+    color: #007c7c;
+    background-color:#f5f6f5;
+    box-shadow: none;
+    border-radius: 0;
+}
+.whatsnew .cow-expansion-panel .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: inherit;
+    transition: height 225ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.whatsnew .cow-expansion-panel .header .title {
+  font-size: 13px;
+  line-height: 22px;
+  color: #ff9a31 !important;
+}
+.whatsnew .cow-expansion-panel .header .titl{
+    color: #007c7c;
+    font-size: 16px;
+    line-height: 26px;
+}
+ .number {
+    position: relative;
+  }
+     .list{
+    position: absolute;
+    color: #fff;
+    top: 30px;
+    left: 15px;
+    font-size: 20px;
+  }
+ .header_content {
+    padding: 0 10px;
+    overflow: hidden;
+    height: 85px;
+    margin: 15px 5px auto auto;
+  }
+  .whtespaceNowrap {
+    white-space: nowrap;
+}
+.cow-expansion-panel-content{
+  display: flex;
+    flex-direction: column;
+    overflow: visible;
+    font: 400 14px / 20px Roboto, Helvetica Neue, sans-serif;
+    letter-spacing: normal;
+}
+.cow-expansion-panel-body {
+  padding: 0 24px 25px 10px;
+  padding-left: 70px !important;
+  color: #555;
+  background-color: #f5f6f5;
+}
+.cow-expansion-panel-body p{
+  font-size: 12px;
+  line-height: 24px;
+}
+/**WHATSNEW END**/
+/**VACCINATION DRIVE STARTS**/
+.vacc-drive{
+  padding: 45px 0;
+  background-color: #fff;
+}
+.vacc-drive h1{
+  font-size: 32px;
+    color: #007c7c;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px !important;
+}
+.vacc-drive .vacc-details .vacc-content p{
+    color: #02aeae;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.vacc-drive .vacc-details .vacc-content h2{
+font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #007c7c;
+    border-radius: 4px;
+    padding: 3px 10px;
+}
+.mb-4{
+  margin-bottom: 1.5rem !important;
+}
+.vacc-dashboard{
+  border: 2px solid #2e9595;
+  background-color: none;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: #2e9595;
+  font-size: 16px;
+  font-weight: 500;
+}
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+.map{
+  margin-top: -20px;
+  margin-left: -150px;
+}
+/**VACCINATION DRIVE END**/
+/**PARTNERS STARTS**/
+.partners{
+  background-color: #edffff;
+  padding: 45px 0 30px;
+}
+.partners h1{
+    color: #007c7c;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.partners .side-img{
+  max-height: 250px;
+}
+.partners-card{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1607843137254902);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  max-height: 63px;
+  min-height: 63px;
+}
+.partners-btn{
+  margin-top: 60px;
+    text-align: center;
+}
+.partners .viewmore{
+  border: 2px solid #007c7c;
+  background-color: #007c7c;
+  border-radius: 50px;
+  padding: 0.75rem 3.95rem;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.partners .register{
+  border: 2px solid #007c7c;
+  background-color: initial;
+  border-radius: 50px;
+  padding: 0.75rem 1.8rem;
+  color: #007c7c;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+/**PARTNERS END**/
+/**FOOTER STARTS**/
+.footer-container{
+background: #007c7c;
+color: #fff;
+position: relative;
+padding: 30px 0 0;
+}
+.footer-container .footerservice h4{
+  text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #99d9d9;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.footer-container .footerservice ul{
+  list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.footer-container .footerservice ul li{
+  margin-bottom: 10px;
+  font-weight: 300;
+  padding: 0px 0px 0px 56px;
+}
+.footer-container .footerservice ul li a{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+.footer-container .footerservice p{
+  font-size: 12px;
+    font-weight: 400;
+}
+.minifooter{
+  background-color: #015158;
+  padding: 5px 0;
+height: 100px;
+}
+.bottomfooter{
+  align-items: center;
+}
+.footer-container .footerservice img{
+  height: 60px;
+    vertical-align: middle;
+}
+.mb-2, .my-2 {
+  margin-bottom: 0.5rem !important;
+}
+.mt-2{
+  margin-top: 0.5rem !important;
+}
+.bottomfooterlinks{
+  text-align: end;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.minifooter p {
+  margin: 0;
+  color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+.vl {
+  border-left: 1px solid white;
+  height: 20px;
+  position: absolute;
+  left: 64%;
+  margin-left: -3px;
+  top: 0;
+}
+/**FOOTER END**/
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 991px){
+.container-fluid {
+    padding: 0 30px;
+}}
